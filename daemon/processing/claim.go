@@ -10,14 +10,14 @@ import (
 	"github.com/lbryio/lbryschema.go/address/base58"
 	pb "github.com/lbryio/types/v2/go"
 
-	util2 "github.com/lbryio/chainquery/util"
+	util2 "github.com/irmf/chainquery/util"
 
-	"github.com/lbryio/chainquery/datastore"
-	"github.com/lbryio/chainquery/global"
-	"github.com/lbryio/chainquery/lbrycrd"
-	"github.com/lbryio/chainquery/metrics"
-	"github.com/lbryio/chainquery/model"
-	"github.com/lbryio/chainquery/notifications"
+	"github.com/irmf/chainquery/datastore"
+	"github.com/irmf/chainquery/global"
+	"github.com/irmf/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/metrics"
+	"github.com/irmf/chainquery/model"
+	"github.com/irmf/chainquery/notifications"
 
 	"github.com/lbryio/lbry.go/extras/errors"
 	util "github.com/lbryio/lbry.go/lbrycrd"

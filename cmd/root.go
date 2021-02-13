@@ -6,7 +6,7 @@ import (
 
 	"net/http"
 
-	"github.com/lbryio/chainquery/config"
+	"github.com/irmf/chainquery/config"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

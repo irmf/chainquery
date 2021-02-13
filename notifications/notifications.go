@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/lbryio/chainquery/metrics"
+	"github.com/irmf/chainquery/metrics"
 
 	"github.com/lbryio/lbry.go/v2/extras/errors"
 

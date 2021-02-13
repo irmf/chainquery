@@ -3,8 +3,8 @@ package cmd
 import (
 	"log"
 
-	"github.com/lbryio/chainquery/config"
-	"github.com/lbryio/chainquery/db"
+	"github.com/irmf/chainquery/config"
+	"github.com/irmf/chainquery/db"
 	"github.com/spf13/cobra"
 )
 

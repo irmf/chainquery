@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	ds "github.com/lbryio/chainquery/datastore"
-	"github.com/lbryio/chainquery/lbrycrd"
-	"github.com/lbryio/chainquery/metrics"
-	m "github.com/lbryio/chainquery/model"
-	"github.com/lbryio/chainquery/notifications"
+	ds "github.com/irmf/chainquery/datastore"
+	"github.com/irmf/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/metrics"
+	m "github.com/irmf/chainquery/model"
+	"github.com/irmf/chainquery/notifications"
 	"github.com/lbryio/lbry.go/extras/errors"
 	"github.com/lbryio/lbry.go/extras/stop"
 

@@ -1,4 +1,4 @@
-module github.com/lbryio/chainquery
+module github.com/irmf/chainquery
 
 go 1.15
 

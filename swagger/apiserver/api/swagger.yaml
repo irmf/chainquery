@@ -129,7 +129,7 @@ paths:
         \ webhook"
       description: "takes a webhook as defined by https://docs.travis-ci.com/user/notifications/#Webhooks-Delivery-Format,\
         \ validates the public key, chooses whether or not update the application.\
-        \ If so it shuts down the api, downloads the latest release from https://github.com/lbryio/chainquery/releases,\
+        \ If so it shuts down the api, downloads the latest release from https://github.com/irmf/chainquery/releases,\
         \ replaces the binary and starts the api again."
       operationId: "AutoUpdate"
       schemes:

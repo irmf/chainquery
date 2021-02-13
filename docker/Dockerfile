@@ -21,7 +21,7 @@ RUN apt-get update && \
   apt-get autoclean -y && \
   rm -rf /var/lib/apt/lists/*
 ARG VERSION="master"
-ADD https://raw.githubusercontent.com/lbryio/chainquery/"${VERSION}"/config/default/chainqueryconfig.toml /etc/lbry/chainqueryconfig.toml.orig
+ADD https://raw.githubusercontent.com/irmf/chainquery/"${VERSION}"/config/default/chainqueryconfig.toml /etc/lbry/chainqueryconfig.toml.orig
 RUN adduser chainquery --gecos GECOS --shell /bin/bash --disabled-password --home /home/chainquery && \
   chown -R chainquery:chainquery /etc/lbry
 COPY --from=prep ./healthcheck /chainquery /start /usr/bin/

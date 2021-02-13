@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lbryio/chainquery/db"
-	"github.com/lbryio/chainquery/meta"
+	"github.com/irmf/chainquery/db"
+	"github.com/irmf/chainquery/meta"
 	"github.com/lbryio/lbry.go/extras/api"
 	"github.com/lbryio/lbry.go/extras/errors"
 	"github.com/lbryio/lbry.go/extras/travis"
@@ -74,7 +74,7 @@ func IndexAction(r *http.Request) api.Response {
 }
 
 // AutoUpdateCommand is the path of the shell script to run in the environment chainquery is installed on. It should
-// stop the service, download and replace the new binary from https://github.com/lbryio/chainquery/releases, start the
+// stop the service, download and replace the new binary from https://github.com/irmf/chainquery/releases, start the
 // service.
 var AutoUpdateCommand = ""
 

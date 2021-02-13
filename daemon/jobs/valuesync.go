@@ -3,8 +3,8 @@ package jobs
 import (
 	"time"
 
-	"github.com/lbryio/chainquery/metrics"
-	"github.com/lbryio/chainquery/model"
+	"github.com/irmf/chainquery/metrics"
+	"github.com/irmf/chainquery/model"
 	"github.com/lbryio/lbry.go/v2/extras/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/volatiletech/null"

@@ -36,7 +36,7 @@ class DefaultApi(object):
     def auto_update(self, payload, **kwargs):  # noqa: E501
         """auto updates the application with the latest release based on TravisCI webhook  # noqa: E501
 
-        takes a webhook as defined by https://docs.travis-ci.com/user/notifications/#Webhooks-Delivery-Format, validates the public key, chooses whether or not update the application. If so it shuts down the api, downloads the latest release from https://github.com/lbryio/chainquery/releases, replaces the binary and starts the api again.  # noqa: E501
+        takes a webhook as defined by https://docs.travis-ci.com/user/notifications/#Webhooks-Delivery-Format, validates the public key, chooses whether or not update the application. If so it shuts down the api, downloads the latest release from https://github.com/irmf/chainquery/releases, replaces the binary and starts the api again.  # noqa: E501
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please pass async=True
         >>> thread = api.auto_update(payload, async=True)
@@ -58,7 +58,7 @@ class DefaultApi(object):
     def auto_update_with_http_info(self, payload, **kwargs):  # noqa: E501
         """auto updates the application with the latest release based on TravisCI webhook  # noqa: E501
 
-        takes a webhook as defined by https://docs.travis-ci.com/user/notifications/#Webhooks-Delivery-Format, validates the public key, chooses whether or not update the application. If so it shuts down the api, downloads the latest release from https://github.com/lbryio/chainquery/releases, replaces the binary and starts the api again.  # noqa: E501
+        takes a webhook as defined by https://docs.travis-ci.com/user/notifications/#Webhooks-Delivery-Format, validates the public key, chooses whether or not update the application. If so it shuts down the api, downloads the latest release from https://github.com/irmf/chainquery/releases, replaces the binary and starts the api again.  # noqa: E501
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please pass async=True
         >>> thread = api.auto_update_with_http_info(payload, async=True)

@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/lbryio/chainquery/migration"
+	"github.com/irmf/chainquery/migration"
 	"github.com/lbryio/lbry.go/extras/errors"
 
 	_ "github.com/go-sql-driver/mysql" // import mysql

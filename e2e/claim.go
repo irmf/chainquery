@@ -3,9 +3,9 @@ package e2e
 import (
 	"encoding/hex"
 
-	"github.com/lbryio/chainquery/lbrycrd"
-	"github.com/lbryio/chainquery/model"
-	"github.com/lbryio/chainquery/util"
+	"github.com/irmf/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/model"
+	"github.com/irmf/chainquery/util"
 
 	"github.com/lbryio/lbry.go/extras/errors"
 	c "github.com/lbryio/lbryschema.go/claim"

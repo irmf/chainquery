@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/lbryio/chainquery/config"
-	"github.com/lbryio/chainquery/daemon/processing"
-	"github.com/lbryio/chainquery/db"
-	"github.com/lbryio/chainquery/lbrycrd"
-	"github.com/lbryio/chainquery/model"
-	"github.com/lbryio/chainquery/util"
+	"github.com/irmf/chainquery/config"
+	"github.com/irmf/chainquery/daemon/processing"
+	"github.com/irmf/chainquery/db"
+	"github.com/irmf/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/model"
+	"github.com/irmf/chainquery/util"
 
 	"github.com/lbryio/lbry.go/extras/errors"
 

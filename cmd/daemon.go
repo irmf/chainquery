@@ -3,12 +3,12 @@ package cmd
 import (
 	"log"
 
-	"github.com/lbryio/chainquery/apiactions"
-	"github.com/lbryio/chainquery/config"
-	"github.com/lbryio/chainquery/daemon"
-	"github.com/lbryio/chainquery/db"
-	"github.com/lbryio/chainquery/lbrycrd"
-	"github.com/lbryio/chainquery/twilio"
+	"github.com/irmf/chainquery/apiactions"
+	"github.com/irmf/chainquery/config"
+	"github.com/irmf/chainquery/daemon"
+	"github.com/irmf/chainquery/db"
+	"github.com/irmf/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/twilio"
 	"github.com/spf13/cobra"
 )
 
@@ -19,7 +19,7 @@ func init() {
 var daemonCmd = &cobra.Command{
 	Use:   "daemon",
 	Short: "Run only Daemon routines",
-	Long:  `Run only Daemon routines, without the API Server. Check github.com/lbryio/chainquery#what-does-chainquery-consist-of`,
+	Long:  `Run only Daemon routines, without the API Server. Check github.com/irmf/chainquery#what-does-chainquery-consist-of`,
 	Run: func(cmd *cobra.Command, args []string) {
 		config.InitSlack()
 		twilio.InitTwilio()

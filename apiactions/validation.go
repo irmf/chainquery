@@ -3,8 +3,8 @@ package apiactions
 import (
 	"net/http"
 
-	"github.com/lbryio/chainquery/auth"
-	"github.com/lbryio/chainquery/daemon/jobs"
+	"github.com/irmf/chainquery/auth"
+	"github.com/irmf/chainquery/daemon/jobs"
 
 	"github.com/lbryio/lbry.go/extras/api"
 	"github.com/lbryio/lbry.go/extras/errors"

@@ -3,13 +3,13 @@ package cmd
 import (
 	"log"
 
-	"github.com/lbryio/chainquery/apiactions"
-	"github.com/lbryio/chainquery/config"
-	"github.com/lbryio/chainquery/daemon"
-	"github.com/lbryio/chainquery/db"
-	"github.com/lbryio/chainquery/lbrycrd"
-	swagger "github.com/lbryio/chainquery/swagger/apiserver"
-	"github.com/lbryio/chainquery/twilio"
+	"github.com/irmf/chainquery/apiactions"
+	"github.com/irmf/chainquery/config"
+	"github.com/irmf/chainquery/daemon"
+	"github.com/irmf/chainquery/db"
+	"github.com/irmf/chainquery/lbrycrd"
+	swagger "github.com/irmf/chainquery/swagger/apiserver"
+	"github.com/irmf/chainquery/twilio"
 
 	"github.com/pkg/profile"
 	"github.com/spf13/cobra"
@@ -23,7 +23,7 @@ func init() {
 var serveCmd = &cobra.Command{
 	Use:   "serve",
 	Short: "Run Daemon routines and the API Server",
-	Long:  `Run Daemon routines and the API Server, check github.com/lbryio/chainquery#what-does-chainquery-consist-of`,
+	Long:  `Run Daemon routines and the API Server, check github.com/irmf/chainquery#what-does-chainquery-consist-of`,
 	Args:  cobra.OnlyValidArgs,
 	Run: func(cmd *cobra.Command, args []string) {
 		if viper.GetBool("codeprofile") {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/btcsuite/btcd/txscript"
 
-	"github.com/lbryio/chainquery/global"
+	"github.com/irmf/chainquery/global"
 )
 
 type HashAddressPair struct {

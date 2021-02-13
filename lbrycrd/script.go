@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 
-	"github.com/lbryio/chainquery/global"
-	"github.com/lbryio/chainquery/util"
+	"github.com/irmf/chainquery/global"
+	"github.com/irmf/chainquery/util"
 
 	"github.com/lbryio/lbry.go/extras/errors"
 

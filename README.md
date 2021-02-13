@@ -1,19 +1,19 @@
 
 # LBRY Chainquery
 
-[![Build Status](https://travis-ci.org/lbryio/chainquery.svg?branch=master)](https://travis-ci.org/lbryio/chainquery)
+[![Build Status](https://travis-ci.org/irmf/chainquery.svg?branch=master)](https://travis-ci.org/irmf/chainquery)
 
-![Code Climate](https://img.shields.io/codeclimate/tech-debt/lbryio/chainquery.svg)
+![Code Climate](https://img.shields.io/codeclimate/tech-debt/irmf/chainquery.svg)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/lbryio/chainquery)](https://goreportcard.com/report/github.com/lbryio/chainquery)
+[![Go Report Card](https://goreportcard.com/badge/github.com/irmf/chainquery)](https://goreportcard.com/report/github.com/irmf/chainquery)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/3f60ac6b2d7e96f93992/maintainability)](https://codeclimate.com/github/lbryio/chainquery/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3f60ac6b2d7e96f93992/maintainability)](https://codeclimate.com/github/irmf/chainquery/maintainability)
 
-![GitHub release](https://img.shields.io/github/release/lbryio/chainquery.svg)
+![GitHub release](https://img.shields.io/github/release/irmf/chainquery.svg)
 
-![Github commits (since latest release)](https://img.shields.io/github/commits-since/lbryio/chainquery/latest.svg)
+![Github commits (since latest release)](https://img.shields.io/github/commits-since/irmf/chainquery/latest.svg)
 
-[![Coverage Status](https://coveralls.io/repos/github/lbryio/chainquery/badge.svg?branch=master)](https://coveralls.io/github/lbryio/chainquery?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/irmf/chainquery/badge.svg?branch=master)](https://coveralls.io/github/irmf/chainquery?branch=master)
 
 ## Prerequisites
 
@@ -61,20 +61,20 @@ Chainquery can be [configured](/config/default/chainqueryconfig.toml) via toml f
 ## Running from Source
 
 ```
-go get -u github.com/lbryio/chainquery
-cd "$(go env GOPATH)/src/github.com/lbryio/chainquery"
+go get -u github.com/irmf/chainquery
+cd "$(go env GOPATH)/src/github.com/irmf/chainquery"
 ./dev.sh
 ```
 ## Running from Release
 
 This will likely eventually be the main supported method of running Chainquery in your environment but this sections documentation is a WIP so YMMV
 
-Get a download link for your operating system specific release from [the releases page](https://github.com/lbryio/chainquery/releases) then use the following command with your download link.
+Get a download link for your operating system specific release from [the releases page](https://github.com/irmf/chainquery/releases) then use the following command with your download link.
 
 ```
   wget -O ~/chainquery.zip https://example.com/path/to/your/release.zip
   Example:
-  wget -O ~/chainquery.zip https://github.com/lbryio/chainquery/releases/download/v1.1.2/chainquery_1.1.2_Linux_x86_64.zip
+  wget -O ~/chainquery.zip https://github.com/irmf/chainquery/releases/download/v1.1.2/chainquery_1.1.2_Linux_x86_64.zip
 ```
 
 Unzip the package you just downloaded with the following.
@@ -152,12 +152,12 @@ are foundation of the [upgrade manager](/daemon/upgrademanager/upgrade.go).
 Contributions to this project are welcome, encouraged, and compensated. For more details, see [https://lbry.tech/contribute](https://lbry.tech/contribute)
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Releases](https://github.com/lbryio/chainquery/releases) are created
+completely stable. [Releases](https://github.com/irmf/chainquery/releases) are created
 regularly to indicate new official, stable release versions.
 
 Developers are strongly encouraged to write unit tests for new code, and to
 submit new unit tests for old code. Unit tests can be compiled and run
- with: `go test ./...` from the source directory which should be `$GOPATH/github.com/lbryio/chainquery`.
+ with: `go test ./...` from the source directory which should be `$GOPATH/github.com/irmf/chainquery`.
  
  All contributions should run the e2e test via `./e2e/ee2e.sh`. This requires Docker to be installed.
 

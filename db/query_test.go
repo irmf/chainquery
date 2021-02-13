@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lbryio/chainquery/model"
+	"github.com/irmf/chainquery/model"
 
 	"github.com/volatiletech/sqlboiler/queries/qm"
 )

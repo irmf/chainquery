@@ -3,12 +3,12 @@ package cmd
 import (
 	"log"
 
-	"github.com/lbryio/chainquery/apiactions"
-	"github.com/lbryio/chainquery/config"
-	"github.com/lbryio/chainquery/db"
-	"github.com/lbryio/chainquery/lbrycrd"
-	swagger "github.com/lbryio/chainquery/swagger/apiserver"
-	"github.com/lbryio/chainquery/twilio"
+	"github.com/irmf/chainquery/apiactions"
+	"github.com/irmf/chainquery/config"
+	"github.com/irmf/chainquery/db"
+	"github.com/irmf/chainquery/lbrycrd"
+	swagger "github.com/irmf/chainquery/swagger/apiserver"
+	"github.com/irmf/chainquery/twilio"
 
 	"github.com/spf13/cobra"
 )

@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strings"
 
-	. "github.com/lbryio/chainquery/apiactions"
+	. "github.com/irmf/chainquery/apiactions"
 	. "github.com/lbryio/lbry.go/extras/api"
 
 	"github.com/gorilla/mux"

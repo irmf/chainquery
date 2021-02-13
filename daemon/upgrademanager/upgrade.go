@@ -3,9 +3,9 @@ package upgrademanager
 import (
 	"time"
 
-	"github.com/lbryio/chainquery/daemon/jobs"
-	"github.com/lbryio/chainquery/lbrycrd"
-	"github.com/lbryio/chainquery/model"
+	"github.com/irmf/chainquery/daemon/jobs"
+	"github.com/irmf/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/model"
 	"github.com/lbryio/lbry.go/extras/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/volatiletech/sqlboiler/boil"

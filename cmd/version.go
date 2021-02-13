@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/lbryio/chainquery/meta"
+	"github.com/irmf/chainquery/meta"
 
 	"github.com/spf13/cobra"
 )

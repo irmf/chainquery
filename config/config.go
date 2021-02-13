@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/lbryio/chainquery/notifications"
+	"github.com/irmf/chainquery/notifications"
 
-	"github.com/lbryio/chainquery/apiactions"
-	"github.com/lbryio/chainquery/auth"
-	"github.com/lbryio/chainquery/daemon"
-	"github.com/lbryio/chainquery/daemon/jobs"
-	"github.com/lbryio/chainquery/daemon/processing"
-	"github.com/lbryio/chainquery/global"
-	"github.com/lbryio/chainquery/lbrycrd"
-	server "github.com/lbryio/chainquery/swagger/apiserver/go"
-	"github.com/lbryio/chainquery/twilio"
+	"github.com/irmf/chainquery/apiactions"
+	"github.com/irmf/chainquery/auth"
+	"github.com/irmf/chainquery/daemon"
+	"github.com/irmf/chainquery/daemon/jobs"
+	"github.com/irmf/chainquery/daemon/processing"
+	"github.com/irmf/chainquery/global"
+	"github.com/irmf/chainquery/lbrycrd"
+	server "github.com/irmf/chainquery/swagger/apiserver/go"
+	"github.com/irmf/chainquery/twilio"
 
 	"github.com/lbryio/lbry.go/extras/errors"
 

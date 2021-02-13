@@ -9,12 +9,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lbryio/chainquery/daemon/jobs"
-	"github.com/lbryio/chainquery/daemon/processing"
-	"github.com/lbryio/chainquery/daemon/upgrademanager"
-	"github.com/lbryio/chainquery/global"
-	"github.com/lbryio/chainquery/lbrycrd"
-	"github.com/lbryio/chainquery/model"
+	"github.com/irmf/chainquery/daemon/jobs"
+	"github.com/irmf/chainquery/daemon/processing"
+	"github.com/irmf/chainquery/daemon/upgrademanager"
+	"github.com/irmf/chainquery/global"
+	"github.com/irmf/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/model"
 	"github.com/lbryio/lbry.go/extras/errors"
 	"github.com/lbryio/lbry.go/extras/stop"
 

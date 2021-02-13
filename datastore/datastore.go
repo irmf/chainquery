@@ -1,13 +1,13 @@
 package datastore
 
 import (
-	"github.com/lbryio/chainquery/model"
+	"github.com/irmf/chainquery/model"
 	"github.com/lbryio/lbry.go/extras/errors"
 	"github.com/volatiletech/null"
 
 	"time"
 
-	"github.com/lbryio/chainquery/util"
+	"github.com/irmf/chainquery/util"
 	"github.com/sirupsen/logrus"
 	"github.com/volatiletech/sqlboiler/boil"
 	"github.com/volatiletech/sqlboiler/queries/qm"

@@ -6,7 +6,7 @@ package main
 
 import (
 	_ "github.com/jteeuwen/go-bindata" // so it's detected by `dep ensure`
-	"github.com/lbryio/chainquery/cmd"
+	"github.com/irmf/chainquery/cmd"
 )
 
 func main() {

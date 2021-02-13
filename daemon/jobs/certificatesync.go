@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/lbryio/chainquery/global"
-	"github.com/lbryio/chainquery/metrics"
-	"github.com/lbryio/chainquery/model"
+	"github.com/irmf/chainquery/global"
+	"github.com/irmf/chainquery/metrics"
+	"github.com/irmf/chainquery/model"
 
 	"github.com/lbryio/lbry.go/extras/errors"
 	c "github.com/lbryio/lbryschema.go/claim"

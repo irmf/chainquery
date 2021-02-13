@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lbryio/chainquery/lbrycrd"
-	"github.com/lbryio/chainquery/metrics"
-	"github.com/lbryio/chainquery/model"
-	"github.com/lbryio/chainquery/twilio"
-	"github.com/lbryio/chainquery/util"
+	"github.com/irmf/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/metrics"
+	"github.com/irmf/chainquery/model"
+	"github.com/irmf/chainquery/twilio"
+	"github.com/irmf/chainquery/util"
 	"github.com/lbryio/lbry.go/extras/errors"
 	"github.com/lbryio/lbry.go/extras/stop"
 

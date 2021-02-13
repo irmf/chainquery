@@ -8,10 +8,10 @@ import (
 	"github.com/pkg/profile"
 	"github.com/spf13/viper"
 
-	"github.com/lbryio/chainquery/config"
-	"github.com/lbryio/chainquery/daemon/jobs"
-	"github.com/lbryio/chainquery/db"
-	"github.com/lbryio/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/config"
+	"github.com/irmf/chainquery/daemon/jobs"
+	"github.com/irmf/chainquery/db"
+	"github.com/irmf/chainquery/lbrycrd"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

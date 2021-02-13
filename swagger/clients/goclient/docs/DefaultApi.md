@@ -11,7 +11,7 @@ Method | HTTP request | Description
 > AutoUpdate(ctx, payload)
 auto updates the application with the latest release based on TravisCI webhook
 
-takes a webhook as defined by https://docs.travis-ci.com/user/notifications/#Webhooks-Delivery-Format, validates the public key, chooses whether or not update the application. If so it shuts down the api, downloads the latest release from https://github.com/lbryio/chainquery/releases, replaces the binary and starts the api again.
+takes a webhook as defined by https://docs.travis-ci.com/user/notifications/#Webhooks-Delivery-Format, validates the public key, chooses whether or not update the application. If so it shuts down the api, downloads the latest release from https://github.com/irmf/chainquery/releases, replaces the binary and starts the api again.
 
 ### Required Parameters
 

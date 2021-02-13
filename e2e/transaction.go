@@ -1,7 +1,7 @@
 package e2e
 
 import (
-	"github.com/lbryio/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/lbrycrd"
 	"github.com/lbryio/lbry.go/extras/errors"
 
 	"github.com/btcsuite/btcd/btcjson"

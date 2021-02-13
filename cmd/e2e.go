@@ -3,11 +3,11 @@ package cmd
 import (
 	"log"
 
-	"github.com/lbryio/chainquery/config"
-	"github.com/lbryio/chainquery/db"
-	"github.com/lbryio/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/config"
+	"github.com/irmf/chainquery/db"
+	"github.com/irmf/chainquery/lbrycrd"
 
-	"github.com/lbryio/chainquery/e2e"
+	"github.com/irmf/chainquery/e2e"
 	"github.com/spf13/cobra"
 )
 

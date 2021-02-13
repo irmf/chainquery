@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lbryio/chainquery/datastore"
-	"github.com/lbryio/chainquery/lbrycrd"
-	"github.com/lbryio/chainquery/metrics"
-	"github.com/lbryio/chainquery/model"
+	"github.com/irmf/chainquery/datastore"
+	"github.com/irmf/chainquery/lbrycrd"
+	"github.com/irmf/chainquery/metrics"
+	"github.com/irmf/chainquery/model"
 
 	"github.com/lbryio/lbry.go/extras/errors"
 	"github.com/lbryio/lbry.go/v2/extras/query"

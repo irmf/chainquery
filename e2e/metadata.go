@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"time"
 
-	"github.com/lbryio/chainquery/model"
+	"github.com/irmf/chainquery/model"
 	"github.com/lbryio/lbry.go/extras/errors"
 	"github.com/lbryio/lbryschema.go/claim"
 	pb "github.com/lbryio/types/v2/go"

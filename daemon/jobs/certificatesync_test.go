@@ -3,7 +3,7 @@ package jobs
 import (
 	"testing"
 
-	"github.com/lbryio/chainquery/global"
+	"github.com/irmf/chainquery/global"
 	"github.com/lbryio/lbryschema.go/claim"
 )
 

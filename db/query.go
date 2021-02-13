@@ -3,10 +3,10 @@ package db
 import (
 	"context"
 
-	g "github.com/lbryio/chainquery/swagger/clients/goclient"
-	"github.com/lbryio/chainquery/util"
+	g "github.com/irmf/chainquery/swagger/clients/goclient"
+	"github.com/irmf/chainquery/util"
 
-	"github.com/lbryio/chainquery/meta"
+	"github.com/irmf/chainquery/meta"
 	"github.com/volatiletech/sqlboiler/boil"
 	"github.com/volatiletech/sqlboiler/queries"
 )
