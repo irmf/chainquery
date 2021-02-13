@@ -5,9 +5,8 @@ import (
 	"time"
 
 	"github.com/lbryio/lbry.go/extras/errors"
-
 	"github.com/sirupsen/logrus"
-	"github.com/spf13/viper"
+	// "github.com/spf13/viper"
 )
 
 // TimeTrack is a function that tracks the time spent and outputs specific timing information. This is important for
@@ -15,18 +14,19 @@ import (
 // usage is `defer util.TimeTrack(time.Now(),"<useful identifier>","<profile>")`. This should be placed at the top of
 // the function where time is to be tracked, or at any point where you want to start tracking time.
 func TimeTrack(start time.Time, name string, profile string) {
-	if profile == "daemonprofile" && viper.GetBool("daemonprofile") {
-		elapsed := time.Since(start)
-		logrus.Infof("%s %s took %s", name, profile, elapsed)
-	}
-	if profile == "lbrycrdprofile" && viper.GetBool("lbrycrdprofile") {
-		elapsed := time.Since(start)
-		logrus.Infof("%s %s took %s", name, profile, elapsed)
-	}
-	if profile == "mysqlprofile" && viper.GetBool("mysqlprofile") {
-		elapsed := time.Since(start)
-		logrus.Infof("%s %s took %s", name, profile, elapsed)
-	}
+	// irmf: Remove dependency on viper.
+	// if profile == "daemonprofile" && viper.GetBool("daemonprofile") {
+	// 	elapsed := time.Since(start)
+	// 	logrus.Infof("%s %s took %s", name, profile, elapsed)
+	// }
+	// if profile == "lbrycrdprofile" && viper.GetBool("lbrycrdprofile") {
+	// 	elapsed := time.Since(start)
+	// 	logrus.Infof("%s %s took %s", name, profile, elapsed)
+	// }
+	// if profile == "mysqlprofile" && viper.GetBool("mysqlprofile") {
+	// 	elapsed := time.Since(start)
+	// 	logrus.Infof("%s %s took %s", name, profile, elapsed)
+	// }
 	if profile == "always" {
 		elapsed := time.Since(start)
 		logrus.Infof("%s took %s", name, elapsed)
